@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.rgt-cell {
+  min-height: 25px !important;
+}
+
+.rgt-row-even {
+  background-color: #e9ecef !important;
+}
+
+.rgt-row-hover {
+  background-color: #cbfce3 !important;
+}
+
+.rgt-footer {
+  position: sticky;
+  bottom: 0px;
+}
+
+.zoomer {
+  height: 25px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+.progress {
+  --bs-progress-bg: rgba(255, 255, 255, 0) !important;
+  --bs-progress-border-radius: 0px !important;
+}
+
+.progressBar .progress {
+  width: 100%;
+  height: 100%;
+}
+
+.progressSpan {
+  display: inline-block;
+  float: left;
+}

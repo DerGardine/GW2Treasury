@@ -1,0 +1,33 @@
+{
+  "name": "react-grid-table-usage",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@nadavshaar/react-grid-table": "1.0.2",
+    "album-art": "2.0.2",
+    "bootstrap": "5.2.2",
+    "prop-types": "15.7.2",
+    "react": "17.0.1",
+    "react-bootstrap": "2.5.0",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0",
+    "store2": "2.14.2"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
